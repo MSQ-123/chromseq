@@ -13,10 +13,10 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.0.2
 NeedsCompilation: no
-URL: https://github.com/MSQ-123/msqchr
-BugReports: https://github.com/MSQ-123/msqchr/issues
+URL: https://github.com/MSQ-123/chromseq
+BugReports: https://github.com/MSQ-123/chromseq/issues
 Depends:
-    R (>= 3.5.0)
+    R (>= 2.1.0)
 Imports:
     utils,
     base
