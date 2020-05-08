@@ -13,11 +13,15 @@
 #' @examples
 #' data(tex)
 #' data(text)
+#' #Simplify the Fasta id
 #' text<- replaceText(type = "text",input = text)
+#' #Subtract id
 #' id <- subFasID(text = text)
+#' #Sort the fasta according to the chromosome number in id
 #' tex2<- sortList(id=id,tex = tex,chrsig = "single")
 #' tex3 <- sortList(id=id,tex = tex,chrsig = "double")
 #' outdir <- tempdir()
+#' #Output the results
 #' splitChr(tex = tex2,chr=seq(1,9),sex = TRUE,outdir = outdir)
 #' splitChr(tex = tex3,chr=seq(10,22),sex = FALSE,outdir = outdir)
 #' @author Shaoqian Ma
@@ -47,7 +51,7 @@ splitChr <- function(tex = tex,chr=chr,sex = FALSE, outdir = "."){
     else{
       fil[[eachchr]] <- unlist(tex[(pos2[[eachchr-1]]+1):((pos2[[eachchr-1]]+1) + pos2[[eachchr]]-1)])
       pos2[[eachchr]]<- pos2[[eachchr-1]]+1 + pos2[[eachchr]]-1
-      write(fil[[eachchr]],file = txtpath)#这里可以设置一个条件判断，只输出指定的chr
+      write(fil[[eachchr]],file = txtpath)
     }
   }
   #Note that single char chromosomes like X and Y can be output separately

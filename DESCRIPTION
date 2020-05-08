@@ -16,7 +16,7 @@ NeedsCompilation: no
 URL: https://github.com/MSQ-123/chromseq
 BugReports: https://github.com/MSQ-123/chromseq/issues
 Depends:
-    R (>= 2.1.0)
+    R (>= 2.10)
 Imports:
     utils,
     base

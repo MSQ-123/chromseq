@@ -20,6 +20,7 @@
 #' id <- subFasID(text = text)
 #' tex2<- sortList(id=id,tex = tex,chrsig = "single")
 #' tex3 <- sortList(id=id,tex = tex,chrsig = "double")
+#' @author Shaoqian Ma
 sortList <- function(id = id,tex = tex,chrsig = "single"){
   id2 <- c()
   if(chrsig == "single"){

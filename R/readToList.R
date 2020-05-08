@@ -14,6 +14,7 @@
 #' write(text,file = fil)
 #' con0 <- file(fil, "r")
 #' tex <- readToList(id,text = text,con = con0)
+#' @author Shaoqian Ma
 readToList <- function(id = id, text = text,con = con){
   
   #match the subtracted ids and the Fasta file ids.

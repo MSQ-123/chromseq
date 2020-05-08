@@ -25,11 +25,15 @@ Split all chromosomes from the sorted chromosome list
 \examples{
 data(tex)
 data(text)
+#Simplify the Fasta id
 text<- replaceText(type = "text",input = text)
+#Subtract id
 id <- subFasID(text = text)
+#Sort the fasta according to the chromosome number in id
 tex2<- sortList(id=id,tex = tex,chrsig = "single")
 tex3 <- sortList(id=id,tex = tex,chrsig = "double")
 outdir <- tempdir()
+#Output the results
 splitChr(tex = tex2,chr=seq(1,9),sex = TRUE,outdir = outdir)
 splitChr(tex = tex3,chr=seq(10,22),sex = FALSE,outdir = outdir)
 }

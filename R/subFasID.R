@@ -9,6 +9,7 @@
 #' data("text")
 #' text<- replaceText(type = "text",input = text)
 #' id <- subFasID(text = text)
+#' @author Shaoqian Ma
 subFasID <- function(text = text){
   id = list()
   sum = 0
