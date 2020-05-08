@@ -1,14 +1,13 @@
-Package: msqchr
+Package: chromseq
 Type: Package
-Title: Split Chromosome Fasta File
-Description: Chromosome files in the Fasta format usually contain large sequences like human genome.
-  Sometimes users have to split these chromosomes into different Fasta files according to their 
-  chromosome number. The "msqchr" can help to handle this. So the selected chromosome sequence can be
-  used for downstream analysis like motif finding. Satpathy A T, Granja J M, Yost K E, et al. (2019)
+Title: Split Chromosome 'Fasta' File
+Description: Chromosome files in the 'Fasta' format usually contain large sequences like human genome.
+  Sometimes users have to split these chromosomes into different files according to their 
+  chromosome number. The 'chromseq' can help to handle this. So the selected chromosome sequence can be
+  used for downstream analysis like motif finding. Howard Y. Chang(2019)
   <doi:10.1038/s41587-019-0206-z>.
 Version: 0.1.3
 Authors@R: person(given = "Shaoqian", family = "Ma", email = "897341109@qq.com", role  = c("aut", "cre"))
-Maintainer: Shaoqian Ma <897341109@qq.com>
 License: Artistic-2.0
 Encoding: UTF-8
 LazyData: true
