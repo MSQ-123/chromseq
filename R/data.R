@@ -37,8 +37,8 @@
 #'
 #' @keywords datasets
 #'
-#' @references Li, G. et al. (2017) The Plant Journal 92, 349–362.
-#' (\href{https://www.ncbi.nlm.nih.gov/pubmed/28805257}{PubMed})
+#' @references Satpathy A T, Granja J M, Yost K E, et al. (2019) Nature biotechnology 37,925–936.
+#' (\href{https://www.ncbi.nlm.nih.gov/pubmed/31375813}{PubMed})
 #'
 #' @examples
 #' data(tex)
